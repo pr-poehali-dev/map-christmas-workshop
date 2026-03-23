@@ -222,14 +222,14 @@ export default function Index() {
                   >
                     {place.emoji}
                   </span>
-                  {/* Подпись */}
+                  {/* Подпись постоянная */}
                   <span
-                    className="absolute left-1/2 -translate-x-1/2 mt-1 top-full whitespace-nowrap font-handwritten text-sm px-1.5 py-0.5 rounded pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-150 shadow"
+                    className="absolute left-1/2 -translate-x-1/2 top-full mt-1 pointer-events-none font-handwritten text-xs px-1.5 py-0.5 rounded shadow"
                     style={{
-                      background: "rgba(245,234,214,0.95)",
+                      background: "rgba(245,234,214,0.92)",
                       color: place.color,
                       border: `1px solid ${place.color}`,
-                      maxWidth: 140,
+                      width: 80,
                       whiteSpace: "normal",
                       textAlign: "center",
                       lineHeight: "1.2",
